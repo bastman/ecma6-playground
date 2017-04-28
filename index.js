@@ -3,7 +3,6 @@
 console.log("INDEX");
 
 
-
 class Examples {
     run() {
         this.hashMaps();
@@ -18,7 +17,7 @@ class Examples {
         for (let k in m) {
             let value = m[k];
 
-            console.log("m."+k+"=",value);
+            console.log("m." + k + "=", value);
         }
     }
 
@@ -39,7 +38,7 @@ class Examples {
                 return it.toUpperCase()
             })
             .reduce((accummulated, it) => {
-                return accummulated + "-"+ it
+                return accummulated + "-" + it
             }, "START");
 
         console.log("reduced: ", result)
